@@ -1,0 +1,35 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[latin1]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{authblk}
+
+\usepackage[left=2cm, right=2cm, top=2cm, bottom=2cm]{geometry}
+\title{\textbf{ELEN4020 Data Intesive Computing for Data Science\\Lab 2 Report}}
+\author{Leantha Naicker (788753), Fiona Rose Oloo (790305),\\Boitumelo Mantji (823869), Justine Wright (869211)}
+\affil{The University of Witwatersrand}
+\renewcommand\Affilfont{\itshape\small}
+\begin{document}
+\maketitle
+\begin{abstract}
+This report contains a short description of the methods used to solve the problems presented in this lab to transpose a matrix using parallel programming methods. The lab explores two ways of doing this, through OpenMP and P-Threading. The pseudo code to each method can be found within the report.
+\end{abstract}
+
+\section{Introduction}
+The objective of this lab was to write a C language based program, which can transpose a matrix using parallel programming tools and methods. 
+
+\section{Matrix Transpose Serially}
+
+\section{Matrix Transpose Using OpenMP}
+Open Multi-Processing or OpenMP is an API that supports shared memory multiprocessing. The constructs for thread creation, workload distribution and thread synchronization is the core purpose of OpenMP.\\
+The pseudo code below illustrates how OpenMP is used to parallelize a transpose matrix program. In this program, OpenMP is used to split loop iterations into threads. The variables a,b and temp are declared private within the parallel running of the program to prevent queuing delays during execution. By adopting this method we have created these variables for each thread to work on simultaneously. 
+**PSEUDO CODE**
+
+\section{Matrix Transpose Using P-Threads}
+
+
+\section{Conclusion}
+
+\end{document}
